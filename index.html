@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover Malaysia: Stories Behind Every Destination</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Discover Malaysia</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+        <!-- Added Search Bar -->
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Search destinations..."
+            class="search-input"
+          />
+          <button type="submit" class="search-button">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Welcome to Discover Malaysia</h1>
+          <p>Explore the rich culture, breathtaking landscapes, and hidden gems of Malaysia.</p>
+          <a href="destinations.html" class="cta-button">Explore Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Places Section - Reorganized Grid -->
+    <section class="destinations">
+      <h2>Top Places to Visit in Malaysia</h2>
+      <div class="destinations-grid">
+        <!-- KL Card (Capital city first) -->
+        <div class="destination-card">
+          <div class="card-image">
+            <img
+              src="https://images.pexels.com/photos/1538177/pexels-photo-1538177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Kuala Lumpur Petronas Towers"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Kuala Lumpur</h3>
+            <p>
+              Home to the iconic Petronas Towers, bustling markets, and diverse
+              cuisine.
+            </p>
+            <a href="destinations.html#kuala-lumpur" class="read-more"
+              >Explore More</a
+            >
+          </div>
+        </div>
+
+        <!-- Malacca Card (Historical city second) -->
+        <div class="destination-card">
+          <div class="card-image">
+            <img
+              src="https://images.pexels.com/photos/2161449/pexels-photo-2161449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Malacca Historical City"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Malacca</h3>
+            <p>
+              Historical city with rich heritage, famous Jonker Street, and
+              unique architecture.
+            </p>
+            <a href="destinations.html#malacca" class="read-more"
+              >Explore More</a
+            >
+          </div>
+        </div>
+
+        <!-- Penang Card -->
+        <div class="destination-card">
+          <div class="card-image">
+            <img
+              src="https://images.pexels.com/photos/5087165/pexels-photo-5087165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Penang Street Art"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Penang</h3>
+            <p>
+              George Town's UNESCO-listed streets, vibrant art, and famous
+              street food.
+            </p>
+            <a href="destinations.html#penang" class="read-more"
+              >Explore More</a
+            >
+          </div>
+        </div>
+
+        <!-- Cameron Highlands Card -->
+        <div class="destination-card">
+          <div class="card-image">
+            <img
+              src="https://images.pexels.com/photos/2131784/pexels-photo-2131784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Cameron Highlands"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Cameron Highlands</h3>
+            <p>
+              Famous for tea plantations, strawberry farms, and cool mountain
+              climate.
+            </p>
+            <a href="destinations.html#cameron-highlands" class="read-more"
+              >Explore More</a
+            >
+          </div>
+        </div>
+
+        <!-- Langkawi Card -->
+        <div class="destination-card">
+          <div class="card-image">
+            <img
+              src="https://images.pexels.com/photos/1802255/pexels-photo-1802255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Langkawi Beach"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Langkawi</h3>
+            <p>
+              Known for its beautiful beaches, Sky Bridge, and duty-free
+              shopping. Experience crystal clear waters and stunning sunsets.
+            </p>
+            <a href="destinations.html#langkawi" class="read-more"
+              >Explore More</a
+            >
+          </div>
+        </div>
+
+        <!-- Sabah Card -->
+        <div class="destination-card">
+          <div class="card-image">
+            <img
+              src="https://images.pexels.com/photos/5602970/pexels-photo-5602970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Mount Kinabalu Sabah"
+            />
+          </div>
+          <div class="card-content">
+            <h3>Sabah</h3>
+            <p>
+              Home to Mount Kinabalu, pristine beaches, and diverse wildlife.
+              Experience the best of Borneo's natural wonders.
+            </p>
+            <a href="destinations.html#sabah" class="read-more">Explore More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Added Interactive Map Section -->
+    <section class="map-section">
+      <h2>Explore Destinations</h2>
+      <div id="malaysia-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8171859.746748952!2d100.55648900387327!3d4.1112452630679835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3034d3975f6730af%3A0x745969328211cd8!2sMalaysia!5e0!3m2!1sen!2s!4v1646443275!5m2!1sen!2s"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+      <h2>Stay Updated</h2>
+      <p>
+        Subscribe to our newsletter for the latest travel updates and stories.
+      </p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect With Us</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        &copy; 2025 Discover Malaysia. All Rights Reserved.
+      </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <!-- Added CSS for better image sizing -->
+    <style>
+      .card-image img {
+        width: 100%;
+        height: 250px; /* Fixed height for consistency */
+        object-fit: cover; /* Maintains aspect ratio while filling container */
+      }
+
+      .destinations-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        padding: 2rem;
+      }
+
+      .blog-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .destinations-grid {
+          grid-template-columns: 1fr;
+        }
+        
+        .card-image img {
+          height: 200px;
+        }
+      }
+
+      .hero {
+        position: relative;
+        height: 100vh;
+        background-image: url('https://images.pexels.com/photos/1538177/pexels-photo-1538177.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        color: white;
+        padding: 2rem;
+        max-width: 800px;
+      }
+
+      .hero h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      .cta-button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background-color: #ff6b6b;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-button:hover {
+        background-color: #ff5252;
+      }
+
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 2.5rem;
+        }
+        
+        .hero p {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </body>
+</html>
